@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html ng-app="app">
+  <html ng-app="app">
 
-<head lang="en">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>MEAN Cats App</title>
-</head>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>MEAN Cats App</title>
+  </head>
 
-<body>
-  <div class="container">
-    <div class="jumbotron">
-    <h1>Ben Margis</h1>
-    <h2>Junior Web Developer</h2>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Ben Margis</h1>
+        <h2>Junior Web Developer</h2>
+      </div>
     </div>
-  </div>
 
-  <div class="container">
-  <ul class="nav nav-tabs">
-    ...
-    <li role="presentation" class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-        Dropdown <span class="caret"></span>
-      </a>
-      <ul class="dropdown-menu">
-        ...
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="dropdown">
+         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            Dropdown <span class="caret"></span>
+         </a>
+         <ul class="dropdown-menu">
+         </ul>
+        </li>
       </ul>
-    </li>
-    ...
-  </ul>
-  </div>
+    </div>
 
-  <div class="container-fluid">
+    <div class="container-fluid">
     <div class="row">
       <div class="col-lg-8"></div>
       <div class="col-sm-4">
       <div ng-controller="IndexController">
-        <p ng-show="cat.name">Your new cat's name is: {{cat.name}}</p>
+        <p ng-show="cat.name">Goals for the week of  {{cat.name}}</p>
         <p ng-hide="cat.name">Enter a new goal</p>
     </div>
 
