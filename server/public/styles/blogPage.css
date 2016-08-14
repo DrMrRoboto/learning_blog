@@ -1,5 +1,27 @@
-div .jumbotron {
-    background-color: #2aabd2;
+/*div .jumbotron {*/
+    /*background-color: #2aabd2;*/
+/*}*/
+
+
+.h1, h1 {
+    font-size: 76px;
+    margin-top:48px;
+}
+
+.h2, h2 {
+    margin: 14px 0 0 0;
+}
+
+.main-line {
+    background-color: #00b3b3;
+    padding: 3px 0;
+    margin-bottom: 43px;
+}
+
+.main-p {
+    color: #004d4d;
+    line-height: 1.5;
+    letter-spacing: .5px;
 }
 
 form {
@@ -9,4 +31,23 @@ form {
 .scrnshot {
     height: 350px;
     width: 600px;
+}
+
+.nav {
+    float: right;
+}
+
+ul .main-nav {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main-link {
+    color:  #001a1a;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #00b3b3;
+    font-style:italic;
+    background-color: white;
 }
