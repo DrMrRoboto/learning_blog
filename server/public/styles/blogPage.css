@@ -14,6 +14,11 @@
     font-weight: bold;
 }
 
+.h4, h4 {
+    font-size: 20px;
+    margin: 0 0 8px 0;
+}
+
 .main-line {
     background-color: #00b3b3;
     padding: 3px 0;
@@ -75,6 +80,19 @@ ul .main-nav {
     font-style: italic;
 }
 
+.save-button{
+    background-color: #00b3b3;
+    border: none;
+    color: white;
+    padding: 4px 27px;
+    margin: 12px 0 20px;
+}
+
+.goal-list{
+    list-style: none;
+    padding: 0;
+}
+
 .contact-footer{
     color:white;
     background-color:#00b3b3;
@@ -103,4 +121,10 @@ ul .main-nav {
 
 .footer-ul ul li{
     display:inline;
+}
+
+.vertical
+{
+    border-left: thick solid red;
+
 }
