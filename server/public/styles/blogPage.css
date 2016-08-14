@@ -19,6 +19,11 @@
     padding: 3px 0;
     margin-bottom: 43px;
 }
+.secondary-line{
+    background-color: #00b3b3;
+    padding: 2px 0;
+    margin-bottom: 9px;
+}
 
 .main-p {
     color: #939393;
@@ -65,7 +70,37 @@ ul .main-nav {
     background-color: transparent;
 }
 
-a:focus, a:hover {
+.nav a:focus, .nav a:hover {
     color: #00b3b3;
     font-style: italic;
+}
+
+.contact-footer{
+    color:white;
+    background-color:#00b3b3;
+    padding:45px 0;
+    margin-top: 45px;
+}
+.footer-links{
+    color:white;
+    font-weight: bold;
+    font-size:17px;
+    margin: 0 32px;
+}
+.footer-ul{
+    list-style: none;
+}
+
+.footer-ul li{
+    float:left;
+}
+
+.footer-ul a:focus, .footer-ul a:hover {
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.footer-ul ul li{
+    display:inline;
 }
