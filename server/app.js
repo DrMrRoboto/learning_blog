@@ -10,7 +10,7 @@ var path = require('path');
 //
 //var db;
 
-var mongoURI = 'mongodb://BenMargis:12Bongresin78!@ds013456.mlab.com:13456/dev_goals'
+var mongoURI = 'mongodb://BenMargis:12Bongresin78!@ds013456.mlab.com:13456/dev_goals';
 
 app.use(express.static(path.join(__dirname, '/public')));
 
